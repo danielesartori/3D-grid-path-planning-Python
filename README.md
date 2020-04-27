@@ -6,4 +6,4 @@ Grid_3D_safe_zone.m: randomly generates a 3D cluttered environment (obstacles co
 
 a_star_3D.m: 3D A* path planning algorithm
 
-New algorithm like 3D Theta* and 3D Lazy Theta* will be uploaded in the future
+New algorithms like 3D Theta* and 3D Lazy Theta* will be uploaded in the future
