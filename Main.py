@@ -5,6 +5,7 @@ import time
 import matplotlib.pyplot as plt
 from grid_3D_safe_zone import grid_3D_safe_zone
 from a_star_3D import a_star_3D
+from theta_star_3D import theta_star_3D
 
 
 ##############################################################################################################
@@ -57,7 +58,8 @@ K = [kg, kh, ke]
 start_time = time.time()
 
 # Generate path (chose one)
-[path, n_points] = a_star_3D(K, E3d_safe, x0, y0, z0, xend, yend, zend, sizeE)
+# [path, n_points] = a_star_3D(K, E3d_safe, x0, y0, z0, xend, yend, zend, sizeE)
+[path, n_points] = theta_star_3D(K, E3d_safe, x0, y0, z0, xend, yend, zend, sizeE)
 
 # Stop measuring and print execution time
 print(" %s seconds" % (time.time() - start_time))
