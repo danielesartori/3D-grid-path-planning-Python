@@ -6,5 +6,4 @@ Grid_3D_safe_zone.py: randomly generates a 3D cluttered environment (obstacles c
 
 a_star_3D.py: 3D A* path planning algorithm
 theta_star_3D.py: 3D Theta* path planning algorithm
-
-New algorithms like 3D Lazy Theta* will be uploaded in the future
+lazy_theta_star_3D.py: 3D Lazy Theta* path planning algorithm
